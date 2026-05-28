@@ -1,10 +1,10 @@
+import BrandLogo from "@/components/layout/BrandLogo";
+
 export default function Footer() {
   return (
     <footer className="border-t border-white/10 py-12 text-center text-sm text-muted">
-      <div className="mx-auto max-w-7xl px-6">
-        <p className="mb-2 text-2xl font-bold text-soft">
-          Avanzato<span className="text-accent-purple">.</span>
-        </p>
+      <div className="mx-auto flex max-w-7xl flex-col items-center px-6">
+        <BrandLogo variant="wordmark" className="mb-4 h-20 w-56" />
         <p>&copy; {new Date().getFullYear()} Avanzato Agency. All rights reserved.</p>
         <div className="mt-4 flex justify-center gap-6">
           <a href="mailto:baraasaad007@gmail.com" className="hover:text-soft">Email</a>

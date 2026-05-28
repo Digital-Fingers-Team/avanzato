@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import MagneticButton from "@/components/effects/MagneticButton";
+import BrandLogo from "@/components/layout/BrandLogo";
 
 const links = [
   { label: "Work", href: "#work" },
@@ -31,8 +32,17 @@ export default function Navbar() {
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-        <Link href="/" className="text-2xl font-bold tracking-tight">
-          Avanzato<span className="text-accent-purple">.</span>
+        <Link
+          href="/"
+          className="group flex items-center gap-3"
+          aria-label="Avanzato home"
+        >
+          <span className="flex h-11 w-11 items-center justify-center overflow-hidden rounded-xl border border-white/10 bg-black/70 shadow-lg shadow-accent-purple/10 transition duration-300 group-hover:border-accent-purple/40 group-hover:shadow-accent-purple/20">
+            <BrandLogo priority className="h-9 w-9" />
+          </span>
+          <span className="text-2xl font-bold tracking-tight">
+            Avanzato<span className="text-accent-purple">.</span>
+          </span>
         </Link>
 
         {/* Desktop */}

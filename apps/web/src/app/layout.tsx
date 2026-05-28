@@ -67,6 +67,20 @@ export const metadata: Metadata = {
     locale: "en_US",
     type: "website",
   },
+  icons: {
+    icon: [
+      {
+        url: "/mini-logo.png",
+        type: "image/png",
+      },
+    ],
+    apple: [
+      {
+        url: "/mini-logo.png",
+        type: "image/png",
+      },
+    ],
+  },
   twitter: {
     card: "summary_large_image",
     title: "Avanzato | Premium Web Design and Development Agency",
