@@ -1,0 +1,7 @@
+{
+  "order": 3,
+  "description": "Portfolio for a motion-design studio with fluid page transitions.",
+  "stack": ["Framer Motion", "Tailwind", "Vercel"],
+  "imageSrc": "",
+  "videoSrc": ""
+}

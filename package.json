@@ -1,0 +1,17 @@
+{
+  "name": "avanzato-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@11.3.0",
+  "scripts": {
+    "dev": "pnpm --filter @avanzato/web dev && pnpm --filter @avanzato/api dev",
+    "dev:web": "pnpm --filter @avanzato/web dev",
+    "dev:api": "pnpm --filter @avanzato/api dev",
+    "build": "pnpm -r build",
+    "build:web": "pnpm --filter @avanzato/web build",
+    "build:api": "pnpm --filter @avanzato/api build",
+    "start:web": "pnpm --filter @avanzato/web start",
+    "start:api": "pnpm --filter @avanzato/api start",
+    "lint:web": "pnpm --filter @avanzato/web lint"
+  }
+}

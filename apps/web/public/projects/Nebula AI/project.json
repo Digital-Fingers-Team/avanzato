@@ -1,0 +1,7 @@
+{
+  "order": 1,
+  "description": "AI-powered analytics dashboard for enterprise decision-making.",
+  "stack": ["Next.js", "OpenAI API", "Cloudflare"],
+  "imageSrc": "",
+  "videoSrc": ""
+}

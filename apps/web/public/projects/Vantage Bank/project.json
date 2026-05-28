@@ -1,0 +1,7 @@
+{
+  "order": 2,
+  "description": "Digital banking platform with real-time transactions.",
+  "stack": ["React", "Node.js", "PostgreSQL"],
+  "imageSrc": "",
+  "videoSrc": ""
+}
